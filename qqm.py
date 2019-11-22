@@ -1,15 +1,3 @@
-#1 -Crie as perguntas e respostas do seu jogo em um arquivo. Faça seu jogo lê-las assim que começa.
-#2 -Faça com que seu jogo funcione em um loop infinito.
-# Toda vez que uma partida acaba, outra começa logo em seguida. Agora faça seu jogo registrar
-# o placar e o nome de cada jogador em um arquivo.
-#3 -Modifique novamente o jogo para que, dessa vez, ao final de uma partida.
-# mostre apenas os nomes e placares dos dez melhores resultados, se houver.
-#  Os nomes e placares devem ser listados em ordem decrescente de placar.
-#4 -Faça com que seu jogo escolha aleatoriamente apenas um número N de perguntas,
-# lido a partir da primeira linha do arquivo de perguntas e mostre apenas essas perguntas.
-
-# A cada partida, as perguntas devem ser sorteadas novamente.
-# Seu jogo não deve considerar a mesma pergunta duas vezes
 import random
 from time import sleep
 
